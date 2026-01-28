@@ -46,5 +46,5 @@
   - Megoldás: a `dashboard.php` POST handlerben a `try/catch` blokkok biztosítják, hogy az API hibák feedbackként jelenjenek meg.  
 - A `panel.js`-t cache-ből mindig frissíteni kell:  
 
-html
+```html
 <script src="/js/panel.js?v=<?= time() ?>"></script>
